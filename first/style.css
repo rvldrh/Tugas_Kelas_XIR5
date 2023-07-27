@@ -1,0 +1,66 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient();
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    font-size: 20px;
+}
+table,tr,td,th{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+table{
+    margin: auto;
+}
+img{
+    margin-top: 20px;
+    width: 240px;
+}
+td{
+    font-size: 10px;
+}
+.logo{
+    width: 180px;
+    margin-bottom: 19px;
+}
+.tengah{
+    width: 380px;
+    margin-bottom: 17px;
+}
+.ypt{
+    width: 120px;
+    margin-bottom: 17px;
+}
+.head{
+    padding-left: 6.7%;
+    padding-right: 6.7%;
+    margin-bottom: 25px;
+}
+.t_head{
+    width: 86%;
+}
+.jam{
+    background-color: bisque;
+}
+.doa{
+    background-color: pink;
+}
+.jumat{
+    background-color: #91C8E4;
+    
+}
+span {
+    font-size: 10px;
+}
+.judul{
+    font-size: 15px;
+    font-weight:bolder;
+}
