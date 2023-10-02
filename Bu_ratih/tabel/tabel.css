@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+table,tr,th,td{
+    margin: auto;
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+th{
+    padding: 5px;
+}

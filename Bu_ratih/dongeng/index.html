@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dongeng</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* Gaya dasar untuk navbar */
+    /* Menambahkan garis bawah pada tautan yang memiliki kelas "active" */
+a.active {
+    border-bottom: 2px solid white; /* Warna dan gaya garis bawah */
+    padding-bottom: 2px; /* Jarak antara teks dan garis bawah */
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+header {
+    background-color: #333; /* Warna latar belakang navbar */
+    color: #fff; /* Warna teks */
+    display: flex; /* Tampilkan elemen dalam baris */
+    justify-content: space-between; /* Letakkan elemen ke ujung kiri dan kanan */
+    align-items: center; /* Pusatkan vertikal elemen */
+    padding: 20px; /* Ruang padding di atas dan bawah header */
+}
+
+nav {
+    background-color: #333; /* Warna latar belakang navbar */
+}
+
+ul {
+    list-style-type: none; /* Hapus tanda bulat dari daftar */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Tampilkan item daftar secara horizontal */
+    margin-right: 20px; /* Tambahkan jarak antar item daftar */
+}
+
+/* Gaya tautan */
+a {
+    text-decoration: none; /* Hapus garis bawah dari tautan */
+    color: #fff; /* Warna teks tautan */
+    font-weight: bold; /* Membuat teks tebal */
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="judul.html">Judul</a></li>
+                <li><a href="gambar.html">Gambar</a></li>
+                <li><a href="cerita.html">Cerita</a></li>
+                <li><a href="tokoh.html">Tokoh</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <h2 style="text-align: center; padding-top: 50px;" >Selamat Datang Di Website Dongeng</h2>
+        <div class="cerita" style="padding-top:15px;" >
+            <p>Cerita "Kancil dan Buaya" adalah dongeng Indonesia yang menceritakan tentang seekor kancil yang cerdik dan seorang buaya yang sombong. Kancil ingin menyeberangi sungai untuk mencari makanan yang lebih baik di sisi lain hutan, tetapi dia tahu bahwa buaya selalu mengintai di sungai tersebut.</p>
+            <br>
+            <p>Kancil yang cerdik pun merencanakan trik. Dia berpura-pura menangis di tepi sungai, membuat buaya khawatir. Buaya yang sombong menawarkan bantuannya untuk membawa Kancil menyeberang sungai di punggungnya. Namun, saat di tengah sungai, Kancil melompat dari punggung buaya dan melarikan diri ke sisi lain dengan selamat.</p>
+            <br>
+            <p>Kancil berhasil mengecoh buaya dengan kecerdikan dan kebijaksanaannya, sementara buaya menjadi malu dan marah karena telah terperdaya. Kisah ini mengandung pesan moral tentang kecerdikan dan bahwa bahkan yang lemah dapat mengalahkan yang kuat dengan cerdik.</p>
+        </div>
+    </section>
+</body>
+</html>

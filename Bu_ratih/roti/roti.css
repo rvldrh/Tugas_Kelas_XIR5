@@ -1,0 +1,33 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.maryam{
+    
+}
+.bahan{
+    margin-right: 500px;
+    background-color: antiquewhite;
+}
+.maryam{
+    display: inline;
+}
+table,tr,td{
+    /* border: 1px;
+    border-style: solid; */
+}
+td{
+    padding: 10px;
+}
+.text{
+    padding-right: 300px;
+}
+.garis{
+    border: 1px;
+    border-style: solid;
+}
+.gambar{
+    padding-left: 1000px;
+}
+.no{
+    list-style: none;
+}

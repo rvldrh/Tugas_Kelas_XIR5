@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* Menambahkan garis bawah pada tautan yang memiliki kelas "active" */
+a.active {
+    border-bottom: 2px solid white; /* Warna dan gaya garis bawah */
+    padding-bottom: 2px; /* Jarak antara teks dan garis bawah */
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+    /* Gaya dasar untuk navbar */
+header {
+    background-color: #333; /* Warna latar belakang navbar */
+    color: #fff; /* Warna teks */
+    display: flex; /* Tampilkan elemen dalam baris */
+    justify-content: space-between; /* Letakkan elemen ke ujung kiri dan kanan */
+    align-items: center; /* Pusatkan vertikal elemen */
+    padding: 20px; /* Ruang padding di atas dan bawah header */
+}
+
+nav {
+    background-color: #333; /* Warna latar belakang navbar */
+}
+
+ul {
+    list-style-type: none; /* Hapus tanda bulat dari daftar */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Tampilkan item daftar secara horizontal */
+    margin-right: 20px; /* Tambahkan jarak antar item daftar */
+}
+
+/* Gaya tautan */
+a {
+    text-decoration: none; /* Hapus garis bawah dari tautan */
+    color: #fff; /* Warna teks tautan */
+    font-weight: bold; /* Membuat teks tebal */
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="judul.html">Judul</a></li>
+                <li><a href="gambar.html">Gambar</a></li>
+                <li><a href="cerita.html">Cerita</a></li>
+                <li><a href="tokoh.html" class="active">Tokoh</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <h2 style="text-align: center; padding-top: 50px;" >Tokoh</h2>
+        <div class="cerita" style="padding-top:15px;" >
+            <p>Kancil</p>
+            <p>Buaya</p>
+        </div>
+    </section>
+</body>
+</html>
